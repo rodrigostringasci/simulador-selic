@@ -1,4 +1,4 @@
-package br.com.testevv.simuladorselic;
+package br.com.testevv.simuladorselic.exception;
 
 public class TaxaSelicNotFoundException extends RuntimeException {
 

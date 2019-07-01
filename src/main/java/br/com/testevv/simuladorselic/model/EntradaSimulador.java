@@ -1,4 +1,4 @@
-package br.com.testevv.simuladorselic;
+package br.com.testevv.simuladorselic.model;
 
 import javax.validation.constraints.NotNull;
 

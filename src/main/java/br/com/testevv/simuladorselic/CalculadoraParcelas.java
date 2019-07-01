@@ -12,6 +12,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
 
+import br.com.testevv.simuladorselic.model.CondicaoPagamento;
+import br.com.testevv.simuladorselic.model.Parcela;
+import br.com.testevv.simuladorselic.model.Produto;
+
 @Configuration
 public class CalculadoraParcelas {
 

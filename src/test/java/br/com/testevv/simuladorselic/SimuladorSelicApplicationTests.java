@@ -19,6 +19,11 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import br.com.testevv.simuladorselic.model.CondicaoPagamento;
+import br.com.testevv.simuladorselic.model.EntradaSimulador;
+import br.com.testevv.simuladorselic.model.Parcela;
+import br.com.testevv.simuladorselic.model.Produto;
+
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
 @AutoConfigureWebTestClient

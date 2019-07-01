@@ -14,6 +14,10 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.client.RestTemplate;
 
+import br.com.testevv.simuladorselic.exception.TaxaSelicFailException;
+import br.com.testevv.simuladorselic.exception.TaxaSelicNotFoundException;
+import br.com.testevv.simuladorselic.model.TaxaSelic;
+
 @Configuration
 public class TaxaSelicService {
 
